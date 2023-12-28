@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+@import "normalize.css";
+
+:root {
+  --firts-color: #869bda;
+  --second-color: #adace2;
+  --third-color: #c7bbe5;
+  --fourth-color: #e0cdeb;
+  --fifth-color: #eeddef;
+}
+body {
+  background-color: var(--fifth-color);
+}
