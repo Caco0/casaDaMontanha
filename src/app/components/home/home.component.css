@@ -1,0 +1,18 @@
+.title--content {
+  height: calc(70vh);
+  background-image: url(../../../assets/img/fundo.jpg);
+  width: 100vw;
+  background-size: cover;
+  z-index: -1;
+  margin-top: 75px;
+  background-position: 50% 10%;
+}
+div {
+  color: var(--fifth-color);
+  font-size: 4rem;
+  display: flex;
+  padding-top: 20px;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 5px 5px 2px var(--text-color1);
+}

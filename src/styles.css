@@ -1,5 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 @import "normalize.css";
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300;400;500&display=swap");
 
 :root {
   --firts-color: #869bda;
@@ -7,6 +8,10 @@
   --third-color: #c7bbe5;
   --fourth-color: #e0cdeb;
   --fifth-color: #eeddef;
+  --text-color1: #141f2d;
+  --text-color2: #265662;
+  --text-color3: #357b82;
+  font-family: "M PLUS Rounded 1c", sans-serif;
 }
 body {
   background-color: var(--fifth-color);
