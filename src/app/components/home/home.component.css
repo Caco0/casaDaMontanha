@@ -1,5 +1,5 @@
 .title--content {
-  height: calc(70vh);
+  height: 40vh;
   background-image: url(../../../assets/img/fundo.jpg);
   width: 100vw;
   background-size: cover;
@@ -16,3 +16,63 @@ div {
   align-items: center;
   text-shadow: 5px 5px 2px var(--text-color1);
 }
+
+.blog--container {
+  min-height: 200px;
+  border-radius: 5px;
+  display: grid;
+  grid-template-rows: repeat(4, auto);
+  grid-template-columns: 30% 1fr;
+  gap: 1rem;
+  padding: 0.625rem;
+}
+.main--videos {
+  grid-column: 2/ -1;
+  grid-row: 1;
+  background-color: bisque;
+  min-height: 200px;
+  border-radius: 5px;
+}
+.section--library {
+  grid-row: 1 /-1;
+  background-color: blue;
+  border-radius: 5px;
+  margin-bottom: 0.925rem;
+}
+.section--contact {
+  grid-column: 2/-1;
+  background-color: blueviolet;
+  min-height: 250px;
+  border-radius: 5px;
+}
+
+.news {
+  display: grid;
+  grid-auto-rows: auto;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+.news--blog {
+  min-height: 500px;
+  border-radius: 5px;
+  background-color: aqua;
+}
+.footer {
+  grid-column: 1/-1;
+  background-color: cadetblue;
+  min-height: 200px;
+  border-radius: 5px;
+}
+/*
+@media (max-width: 768px) {
+  .blog--container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 10% 30% 30% 10%;
+    grid-template-areas:
+      "sidebar--blog"
+      "main--videos"
+      "section--library"
+      "section--contact"
+      "footer";
+  }
+} */
